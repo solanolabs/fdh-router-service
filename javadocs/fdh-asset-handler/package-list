@@ -1,0 +1,8 @@
+com.ge.fdh.handler.asset
+com.ge.fdh.handler.asset.common
+com.ge.fdh.handler.asset.data
+com.ge.fdh.handler.asset.data.updater
+com.ge.fdh.handler.asset.helper
+com.ge.fdh.handler.asset.processor.dx
+com.ge.fdh.handler.asset.utils
+com.ge.fdh.handler.asset.validator
