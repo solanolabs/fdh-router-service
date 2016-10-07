@@ -1,0 +1,1 @@
+{"solutionIdentifier":{"complexType":"SolutionIdentifier","id":"soid"},"correlationId":"string","fieldData":[{"field":{"parents":[]},"data":{"complexType":"OsaData","dataEvent":{"complexType":"DMInt","id":0,"numAlerts":[],"value":0}}}],"filter":{"complexType":"FieldFilter","fieldIdentifierValue":[{"fieldIdentifier":{"complexType":"FieldIdentifier","id":"test"},"value":"test"}]}}

@@ -1,0 +1,20 @@
+---
+applications:
+  - name: dev-data-exchange
+    buildpack: java_buildpack
+    path: target/data-exchange-2.0.4.jar 
+    services:
+      - rmd-asset-unittest
+      - rmd-timeseries-unittest
+env:
+    SPRING_PROFILES_ACTIVE : cloud,clouddev
+    predix_asset_name : unittest-asset
+    predix_timeseries_name : unittest-rmd-timeseries
+    predix_userName : app_user_1
+    predix_password : app_user_1
+    predix_oauth_restHost : 5f37babc-08cd-4d3c-9f7f-0ffd3b474f0f.predix-uaa-sysint.grc-apps.svc.ice.ge.com
+    predix_oauth_clientId : app_client_id:secret
+    predix_wspool_maxIdle : 5
+    predix_wspool_maxActive : 5
+    predix_wspool_maxWait : 8000
+    predix_wspool_maxInstances : 5
